@@ -109,13 +109,13 @@ class CallLogPage extends ConsumerWidget {
                   subtitle: Text(entry.number ?? 'No number'),
                   trailing: Text('${entry.duration} sec'),
                   onTap: () {
-                    // Navigate to details page
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => DetailsPage(entry: entry),
-                      ),
-                    );
+                    // // Navigate to details page
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(
+                    //     builder: (context) => DetailsPage(log: ,),
+                    //   ),
+                    // );
                   },
                 );
               },
